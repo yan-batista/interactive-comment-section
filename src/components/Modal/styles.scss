@@ -1,0 +1,23 @@
+@use "../../styles/variables";
+
+.modal-container {
+  background-color: variables.$neutral_white;
+  border-radius: 8px;
+  padding: 30px;
+
+  & h1 {
+    font-size: 21px;
+    font-weight: 500;
+    color: variables.$neutral_darkBlue;
+  }
+
+  & p {
+    max-width: 308px;
+    font-size: 16px;
+    margin: 24px 0;
+  }
+
+  & .buttons > :first-child {
+    margin-right: 24px;
+  }
+}
