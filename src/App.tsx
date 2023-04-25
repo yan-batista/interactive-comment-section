@@ -1,3 +1,5 @@
+import "./styles/GlobalStyle.scss";
+
 function App() {
   return (
     <>
