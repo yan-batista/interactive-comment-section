@@ -9,14 +9,17 @@ interface Props {
 
 const Modal: React.FC<Props> = ({ title, children }: Props) => {
   return (
-    <div className="modal-container">
-      <h1>{title}</h1>
-      {children}
-      <div className="buttons">
-        <Button text="no, cancel" type="secondary" />
-        <Button text="yes, delete" type="warning" />
+    <>
+      {/* <div className="overlay"></div> */}
+      <div className="modal-container">
+        <h1>{title}</h1>
+        {children}
+        <div className="buttons">
+          <Button text="no, cancel" type="secondary" />
+          <Button text="yes, delete" type="warning" />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
