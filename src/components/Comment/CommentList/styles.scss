@@ -1,0 +1,25 @@
+@use "../../../styles/variables";
+
+.comment,
+.subcomment {
+  margin-bottom: 25px;
+}
+
+.subcomment {
+  margin-left: 40px;
+
+  @media (min-width: variables.$desktop) {
+    margin-left: 120px;
+  }
+}
+
+.comment-replies {
+  position: relative;
+}
+
+.dividerLine {
+  border-right: 3px solid variables.$neutral_lightGray;
+  height: 95%;
+  position: absolute;
+  left: 60px;
+}
