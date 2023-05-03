@@ -15,14 +15,25 @@
   & p {
     color: variables.$primary_moderateBlue;
     font-weight: 500;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
 
-  & svg {
-    cursor: pointer;
-    fill: #c5c6ef;
+  & button {
+    border: none;
+    display: flex;
+    align-items: center;
 
-    &:hover {
-      fill: variables.$primary_moderateBlue;
+    & svg {
+      cursor: pointer;
+      fill: #c5c6ef;
+
+      &:hover {
+        fill: variables.$primary_moderateBlue;
+      }
     }
   }
 

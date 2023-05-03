@@ -1,4 +1,5 @@
 import data from "../../../data.json";
+import NewComment from "../NewComment";
 import Comment from "../index";
 import "./styles.scss";
 
@@ -44,7 +45,12 @@ const CommentList = () => {
     );
   });
 
-  return <div className="comment-list-container">{renderComments}</div>;
+  return (
+    <div className="comment-list-container">
+      {renderComments}
+      <NewComment />
+    </div>
+  );
 };
 
 export default CommentList;

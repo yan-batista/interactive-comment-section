@@ -21,5 +21,9 @@
   border-right: 3px solid variables.$neutral_lightGray;
   height: 95%;
   position: absolute;
-  left: 60px;
+  left: 15px;
+
+  @media (min-width: variables.$desktop) {
+    left: 60px;
+  }
 }

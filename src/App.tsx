@@ -21,16 +21,6 @@ function App() {
       </Modal>
 
       <Score score={99} />
-      {/* <Comment type="comment" currentUserComment username="amyrobson" date="1 month ago" score={12}>
-          "Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've
-          nailed the design and the responsiveness at various breakpoints works really well."
-        </Comment>
-
-        <Comment type="subcomment" username="maxblagun" date="2 weeks ago" score={5}>
-          Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive
-          into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
-        </Comment> */}
-
       <CommentList />
     </Layout>
   );
