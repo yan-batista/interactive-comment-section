@@ -1,16 +1,16 @@
 import "./styles/GlobalStyle.scss";
 
 import Layout from "./components/Layout";
-import Button from "./components/Button";
+/* import Button from "./components/Button";
 import Modal from "./components/Modal";
 import Score from "./components/Score";
-/* import Comment from "./components/Comment"; */
+import Comment from "./components/Comment"; */
 import CommentList from "./components/Comment/CommentList";
 
 function App() {
   return (
     <Layout>
-      <h1>Comment Section</h1>
+      {/* <h1>Comment Section</h1>
       <div className="buttons">
         <Button text="send" type="primary" />
         <Button text="delete" type="warning" />
@@ -19,8 +19,8 @@ function App() {
       <Modal title="Delete Comment">
         <p>Are you sure you want to delete this comment? This will remove the comment and can't be undone.</p>
       </Modal>
+      <Score score={99} /> */}
 
-      <Score score={99} />
       <CommentList />
     </Layout>
   );

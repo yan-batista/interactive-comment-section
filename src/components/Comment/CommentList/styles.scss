@@ -1,5 +1,9 @@
 @use "../../../styles/variables";
 
+.comment-list-container {
+  height: fit-content;
+}
+
 .comment,
 .subcomment {
   margin-bottom: 25px;
